@@ -18,5 +18,9 @@ function tocaSom(idElementoAudio){
     tecla.onclick = function(){
     tocaSom(idAudio);
     }
-
+    tecla.onleydown = function(){
+        tecla.classlist.add('ativa');
+    }
+    tecla.onkeyup = function(){
+       tecla.classlist
     }
